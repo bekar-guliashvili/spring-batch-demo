@@ -16,13 +16,13 @@ Project has two different api endpoints one demonstrates embedded csv file inser
 
 ### Trigger Batch job to insert embedded csv file
 * Method: POST
-* URI: http:/localhost:8080/api/v1/job/importData
+* URL: http:/localhost:8080/api/v1/job/importData
 
 ### Upload csv file and trigger batch job
 * Method: POST
-* URI: http:/localhost:8080/api/v1/job/uploadData
+* URL: http:/localhost:8080/api/v1/job/uploadData
 
 ## To Access H2 DB
-* URI: http://localhost:8080/h2-console
+* URL: http://localhost:8080/h2-console
 * DB Name: person-manager
 * Table: Persons
